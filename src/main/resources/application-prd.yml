@@ -3,7 +3,6 @@ spring:
     url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
     username: ${PGUSER}
     password: ${PGPASSWORD}
-    driverClassName: org.h2.Driver
   jpa:
     hibernate:
       ddl-auto: create
